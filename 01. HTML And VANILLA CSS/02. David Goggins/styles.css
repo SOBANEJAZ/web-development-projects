@@ -78,8 +78,6 @@ body {
 
 .paragraph {
     font-size: large;
-    padding: 0;
-    margin: 0;
 }
 
 .container {
@@ -104,4 +102,30 @@ body {
   width: 250px;
   margin: 15px;
   border-radius: 50%;
+}
+
+.main-footer {
+  background-color: rgb(10, 20, 62);
+  color: white;
+  padding: 0.25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+} 
+
+.footer nav li {
+  padding: 0 0.5em;
+  color: white;
+}
+
+.footer nav img {
+  width: 30px;
+  height: 30px;
 }
